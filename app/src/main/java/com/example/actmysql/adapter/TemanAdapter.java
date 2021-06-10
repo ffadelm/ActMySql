@@ -39,9 +39,8 @@ public class TemanAdapter extends RecyclerView.Adapter<TemanAdapter.TemanViewHol
 
     @Override
     public void onBindViewHolder(@NonNull TemanAdapter.TemanViewHolder holder, int position) {
-        String id, nama, telpon;
+        String nama, telpon;
 
-        id = listData.get(position).getId();
         nama = listData.get(position).getNama();
         telpon = listData.get(position).getTelpon();
 

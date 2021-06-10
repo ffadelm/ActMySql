@@ -3,6 +3,7 @@ package com.example.actmysql.database;
 import java.io.Serializable;
 
 public class Teman implements Serializable{
+
     String id,nama,telpon;
 
     public Teman(String id, String nama, String telpon) {

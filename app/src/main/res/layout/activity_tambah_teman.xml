@@ -40,6 +40,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="152dp"
         android:text="Simpan"
+        android:backgroundTint="#f203ff"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/edTelpon"
         app:layout_constraintStart_toStartOf="@+id/edTelpon"

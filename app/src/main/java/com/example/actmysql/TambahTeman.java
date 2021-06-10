@@ -45,7 +45,6 @@ public class TambahTeman extends AppCompatActivity {
             tlp = editTelpon.getText().toString();
 
             RequestQueue requestQueue = Volley.newRequestQueue(getApplicationContext());
-
             StringRequest strReq = new StringRequest(Request.Method.POST, url_insert, new Response.Listener<String>() {
                 @Override
                 public void onResponse(String response) {

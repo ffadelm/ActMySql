@@ -20,8 +20,6 @@
             android:layout_height="wrap_content"
             android:layout_margin="2pt"
             android:text="TextView"
-
-
             android:textStyle="bold" />
 
         <TextView
